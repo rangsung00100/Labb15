@@ -1,0 +1,29 @@
+.container{
+    position: relative;
+    top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    border: 2px double blue;
+    box-shadow: 5px 5px 15px red;
+}
+.container>iframe{
+    width: 75%;
+    height: 95%;
+    float: left;
+    padding-top: 20px;
+}
+.container>.anh-poster{
+    height: 100%;
+    width: 22%;
+    float: right;
+    padding: 10px 20px 10px 5px;
+}
+.container>.anh-poster>a{
+    text-decoration: none;
+    height: 150px;
+}
+.container>.anh-poster>a>img{
+    width: 100%;
+    height: 150px;
+}
